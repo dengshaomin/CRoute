@@ -1,0 +1,7 @@
+include ':ComponentB'
+include ':RouteConstants'
+include ':ComponentA'
+include ':CRouteFactory'
+include ':crregister'
+include ':app'
+rootProject.name = "CRoute"
