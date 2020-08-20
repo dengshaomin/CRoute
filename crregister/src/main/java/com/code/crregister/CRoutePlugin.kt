@@ -184,7 +184,7 @@ class CRoutePlugin : Transform(), Plugin<Project> {
                     }
                     if (it.name.contains(poolClassName)) {
                         //找到组件池所在的目录
-                        poolClassPath = dest.absolutePath
+                        poolClassPath = it.path
                     }
                 }
             }
